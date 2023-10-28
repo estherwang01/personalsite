@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/personalsite/static/css/main.8744b99b.css",
-    "main.js": "/personalsite/static/js/main.f7974941.js",
-    "static/js/787.c0731d43.chunk.js": "/personalsite/static/js/787.c0731d43.chunk.js",
-    "static/media/2112.jpg": "/personalsite/static/media/2112.2bf7253ca0f74b594fc2.jpg",
-    "static/media/stemun.JPG": "/personalsite/static/media/stemun.fba8ea1135969749b6c0.JPG",
-    "static/media/cup.jpeg": "/personalsite/static/media/cup.0bb162c8bfa86d45bfaa.jpeg",
-    "static/media/sig.png": "/personalsite/static/media/sig.4dff92a00895717604f4.png",
-    "static/media/bg.png": "/personalsite/static/media/bg.03f3bf5900dadd71ae58.png",
-    "static/media/tree2.png": "/personalsite/static/media/tree2.089372ca1cebc3b9aef3.png",
-    "static/media/tree1.png": "/personalsite/static/media/tree1.8171bc1ab3139f460ed9.png",
-    "static/media/mountain.png": "/personalsite/static/media/mountain.b6c3b3a24b6b43b706d2.png",
-    "static/media/top2.png": "/personalsite/static/media/top2.3179bcc2569071d080f3.png",
-    "index.html": "/personalsite/index.html",
-    "main.8744b99b.css.map": "/personalsite/static/css/main.8744b99b.css.map",
-    "main.f7974941.js.map": "/personalsite/static/js/main.f7974941.js.map",
-    "787.c0731d43.chunk.js.map": "/personalsite/static/js/787.c0731d43.chunk.js.map"
+    "main.css": "./static/css/main.22af1f66.css",
+    "main.js": "./static/js/main.48dec04c.js",
+    "static/js/787.c0731d43.chunk.js": "./static/js/787.c0731d43.chunk.js",
+    "static/media/2112.jpg": "./static/media/2112.2bf7253ca0f74b594fc2.jpg",
+    "static/media/stemun.JPG": "./static/media/stemun.fba8ea1135969749b6c0.JPG",
+    "static/media/cup.jpeg": "./static/media/cup.0bb162c8bfa86d45bfaa.jpeg",
+    "static/media/sig.png": "./static/media/sig.4dff92a00895717604f4.png",
+    "static/media/bg.png": "./static/media/bg.03f3bf5900dadd71ae58.png",
+    "static/media/tree2.png": "./static/media/tree2.089372ca1cebc3b9aef3.png",
+    "static/media/tree1.png": "./static/media/tree1.8171bc1ab3139f460ed9.png",
+    "static/media/mountain.png": "./static/media/mountain.b6c3b3a24b6b43b706d2.png",
+    "static/media/top2.png": "./static/media/top2.3179bcc2569071d080f3.png",
+    "index.html": "./index.html",
+    "main.22af1f66.css.map": "./static/css/main.22af1f66.css.map",
+    "main.48dec04c.js.map": "./static/js/main.48dec04c.js.map",
+    "787.c0731d43.chunk.js.map": "./static/js/787.c0731d43.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8744b99b.css",
-    "static/js/main.f7974941.js"
+    "static/css/main.22af1f66.css",
+    "static/js/main.48dec04c.js"
   ]
 }
