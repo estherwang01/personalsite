@@ -2,7 +2,7 @@ import React from "react";
 import '../App.css'; 
 import Navbar from "../components/navbar";
 import Timeline from '@material-ui/lab/Timeline';
-import TimelineItem from '@mui/lab/TimelineItem';
+import TimelineItem from '@material-ui/lab/TimelineItem';
 import TimelineSeparator from '@material-ui/lab/TimelineSeparator';
 import TimelineConnector from '@material-ui/lab/TimelineConnector';
 import TimelineContent from '@material-ui/lab/TimelineContent';
@@ -29,7 +29,7 @@ const Experience = () => {
                     {/* <img src={require('../images/sig.png')} width={300}/> */}
                 </div>
                 <div className="timelineContainer" id="experiences">
-                <Timeline align="alternate">
+                <Timeline >
                         <TimelineItem>
                             <TimelineOppositeContent color="textSecondary">
                             June 2023 - August 2023

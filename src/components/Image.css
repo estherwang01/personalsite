@@ -1,15 +1,24 @@
 .imageContainer {
-    border-color: var(--light2);
-    border-width: 2px;
+    border-color: var(--accent1);
+    border-width: 1px;
     border-style: solid;
     padding: 20px; 
     border-radius: 3px;
     margin: 20px;
-    /* box-shadow: 1px 1px 2px grey; */
+    /* box-shadow: 1px 1px 2px var(--light2); */
 }
 
 .captionContainer{
     background-color: var(--dark2);
     padding: 10px; 
     color: var(--light2); 
+}
+
+.textContainer{
+    width: fit-content; 
+    background-color: var(--accent1);
+    padding: 1px 10px 5px 10px; 
+    color: var(--light1); 
+    border-radius: 15px;
+    margin: 0px 5px 0px 5px; 
 }

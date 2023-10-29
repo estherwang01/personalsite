@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Routes, Route }
-    from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Experience from './pages/experience';
 import Projects from './pages/projects';
 import Interests from './pages/interests';
@@ -10,9 +9,8 @@ import Intro from './pages/intro';
 
 function App() {
   return (
-
-    <div className="App">
-      <Router>
+    <div className="App" >
+      <HashRouter>
           <Routes>
             <Route exact path='/' element={<Intro />} />
             <Route exact path='/experience' element={<Experience />} />
@@ -20,7 +18,7 @@ function App() {
             <Route exact path='/interests' element={<Interests />} />
             <Route exact path='/contact' element={<Contact />} />
           </Routes>
-      </Router>
+      </HashRouter>
     
     </div>
     
