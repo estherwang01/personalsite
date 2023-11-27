@@ -6,6 +6,7 @@ import Projects from './pages/projects';
 import Interests from './pages/interests';
 import Contact from './pages/contact';
 import Intro from './pages/intro';
+import ErrorPage from './pages/Error';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             <Route exact path='/projects' element={<Projects />} />
             <Route exact path='/interests' element={<Interests />} />
             <Route exact path='/contact' element={<Contact />} />
+            <Route exact path='/error' element={<ErrorPage />} />
           </Routes>
       </HashRouter>
     

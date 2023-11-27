@@ -17,7 +17,7 @@ const Navbar = () => {
                         Projects
                     </NavLink>
                     <NavLink to="/interests" activeStyle>
-                        Interests/Hobbies
+                        Interests
                     </NavLink>
                     <NavLink to="/contact" activeStyle>
                         Contact Me

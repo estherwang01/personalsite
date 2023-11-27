@@ -9,12 +9,14 @@ import TimelineContent from '@material-ui/lab/TimelineContent';
 import TimelineDot from '@material-ui/lab/TimelineDot';
 import TimelineOppositeContent from '@material-ui/lab/TimelineOppositeContent';
 import CaptionedImage from "../components/CaptionedImage";
+import withScreenSizeCheck from "../components/screenSizeCheck";
  
 const Experience = () => {
     return (
         <div>
             <Navbar />
-            <div style={{display: "flex"}}>
+            <div style={{display: "flex", alignContent:"center"}}>
+                <div style={{width:"30vw"}}></div>
                 <div className="imagesContainer">
                     <CaptionedImage link={require('../images/sig.png')} 
                     caption={"Networking with coworkers at Susquehanna International Group. Here, I'm talking discussing crypto trading strategies with some of my peers."} 
@@ -137,9 +139,10 @@ const Experience = () => {
                         </TimelineItem>
                 </Timeline>
                 </div>
+                <div style={{width:"20vw"}}></div>
             </div>
         </div>
     );
 };
  
-export default Experience;
+export default withScreenSizeCheck(Experience);

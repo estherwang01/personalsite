@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/navbar";
 import ButtonMailto from "../components/MailTo";
 import Button from "../components/Button";
+import withScreenSizeCheck from "../components/screenSizeCheck";
  
 const Contact = () => {
     return (
@@ -23,4 +24,4 @@ const Contact = () => {
     );
 };
  
-export default Contact;
+export default withScreenSizeCheck(Contact);

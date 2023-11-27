@@ -3,6 +3,7 @@ import {Parallax, ParallaxLayer} from "@react-spring/parallax"
 import "../App.css"; 
 import Navbar from "../components/navbar";
 import CaptionedImage from "../components/CaptionedImage";
+import withScreenSizeCheck from "../components/screenSizeCheck";
  
 const Intro = () => {
     return (
@@ -58,4 +59,4 @@ const Intro = () => {
     );
 };
  
-export default Intro;
+export default withScreenSizeCheck(Intro);

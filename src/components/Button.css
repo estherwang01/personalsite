@@ -13,3 +13,19 @@
   .button:hover {
     background-color: var(--accent2);
   }
+
+  .button2 {
+    background-color: var(--accent2); /* Green */
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 20px
+  }
+
+  .button2:hover {
+    background-color: var(--accent1);
+  }
